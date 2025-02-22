@@ -1,0 +1,171 @@
+*{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: linear-gradient(to right,rgb(117, 87, 87),rgb(14, 14, 98));
+    overflow-x: hidden;
+}
+.gref{
+    width: 30%;
+}
+.btn{
+    translate: 170px 0;
+    width: 80px;
+    height: 20px;
+    border-radius: 7px;
+    background-color: orangered;
+}
+.btn:hover{
+    background-color: transparent;
+}
+*{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+img{
+    width: 100px;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    translate: 0 -70px;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(210, 173, 6);
+}
+.ar:hover{
+    color: white;
+    text-decoration: underline;
+}
+.huff{
+    translate: 1000px -480px;
+    width: 35%;
+    height: 450px;
+}
+.btn1{
+    translate: 1250px -480px;
+    width: 80px;
+    height: 20px;
+    border-radius: 7px;
+    background-color: orangered;
+}
+.btn1:hover{
+    background-color: transparent;
+}
+.rav{
+    translate: 463px -950px;
+    width: 35%;
+    height: 450px;
+}
+.btn2{
+    translate: 650px -950px;
+    width: 80px;
+    height: 20px;
+    border-radius: 7px;
+    background-color: orangered;
+}
+.btn2:hover{
+    background-color: transparent;
+}
+.selz{
+    translate: 0 -900px;
+    width: 30%;
+    height: 450px;
+}
+.btn3{
+    translate: 150px -900px;
+    width: 80px;
+    height: 20px;
+    border-radius: 7px;
+    background-color: orangered;
+}
+.btn3:hover{
+    background-color: transparent;
+
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1a1a1a;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+footer nav a {
+    color: #ffcc00;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer nav a:hover {
+    text-decoration: underline;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1; /* يجعل المحتوى يتمدد ليملأ المساحة */
+}
+
+footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    font-family: 'Arial', sans-serif;
+    margin-top: auto; /* يجعل الفوتر ثابت في الأسفل */
+}
+
+footer nav a {
+    color: #ffcc00;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer nav a:hover {
+    text-decoration: underline;
+}
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100px; /* تأكد أن العرض مناسب */
+    height: 30px; /* تأكد أن الارتفاع مناسب */
+    border-radius: 7px;
+    background-color: orangered;
+    font-size: 16px; /* تعديل حجم النص حسب الحاجة */
+    font-weight: bold; /* اجعل النص أكثر وضوحًا */
+}
+
+button:hover {
+    background-color: transparent;
+}
+.sec{
+    translate: 0 -400px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}

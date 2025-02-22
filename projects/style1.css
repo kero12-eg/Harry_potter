@@ -1,0 +1,99 @@
+*{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+img{
+    width: 100px;
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(to right,rgb(26, 23, 23),transparent),url(1200px-Hogwarts_model_studio_tour.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    translate: 0 -70px;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(210, 173, 6);
+}
+a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.head{
+    font-size: 30px;
+    font-weight: bolder;
+    translate: 50px 0;
+    color: rgb(21, 147, 225);
+}
+p{
+    color: rgb(21, 147, 225) ;
+    translate: 50px 0;
+    width: 170px;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1a1a1a;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+footer nav a {
+    color: #ffcc00;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer nav a:hover {
+    text-decoration: underline;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1; /* يجعل المحتوى يتمدد ليملأ المساحة */
+}
+
+footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    font-family: 'Arial', sans-serif;
+    margin-top: auto; /* يجعل الفوتر ثابت في الأسفل */
+}
+
+footer nav a {
+    color: #ffcc00;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer nav a:hover {
+    text-decoration: underline;
+}
